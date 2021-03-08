@@ -15,9 +15,17 @@
 
 .hotels{
     margin: 2%;
-    background-color: rgb(132,136,139);
+    background-color: lightgray;
     width: 40%;
     float: left;
     
+    
+}
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.hotels{
+    display: flex;
     
 }
