@@ -5,8 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/common.css">
+    <style>
+      body{
+        font-family:sans-serif;
+      }
+    </style>
   </head>
   
   <body>
@@ -16,14 +22,16 @@
         <!--Header div-->
         <img src="assests/images/logo.png" alt="logo" id="logo"  />
         <!--login to open in new page-->
-        <a href="login.html" target="_self">Login</a>
+        <a href="login.html" target="_self" id="login">Login</a>
       </div>
     </header>
-    <div>
+    <div style="overflow-y: scroll; width: 100%;  overflow: hidden; position: absolute; height: 750px;">
       <!--Content div-->
       <!--first section of content div-->
       <div id="content-1">
+        <div id="search-bar">
       <input type="text" placeholder="City">
+    </div>
       </div >
       <!--second section of content div-->
       <div id="content-2" style="margin-left: 15%; margin-right: 15%;">
@@ -35,22 +43,24 @@
         <img class="placeimage" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="kolkata-calcutta" />
       </div>
       <!--third section of content div-->
-      <a href="index.html">View more></a>
+      <a href="index.html" ><p style="margin: auto;text-align: center;"> View more>></p></a>
       <div></div>
     </div>
     <footer>
       <div id="footer">
         <!--Footer div-->
         <!--first section of Footer div-->
-        <a href="contact.html" target="_self">Contact Us</a>
+        <a href="contact.html" target="_self" id="contact">Contact Us</a>
         <br />
         <!--second section of Footer div-->
+        <div id="social">
         <a href="https://www.facebook.com" target="_blank"><img class="social-icons" src="assests/images/facebook.png" alt="facebook" /></a>
         <a href="https://www.instagram.com" target="_blank"><img class="social-icons" src="assests/images/instagram.png" alt="instagram" /></a>
         <a href="https://twitter.com" target="_blank" ><img class="social-icons" src="assests/images/twitter.png" alt="twitter" /></a>
+      </div>
         <br />
         <!--third section of Footer div-->
-        &COPY; 2020 ROOM SEARCH PVT. LTD.
+        <div class="copyRight">&COPY; 2020 ROOM SEARCH PVT. LTD.</div>
       </div>
     </footer>
   </div>
