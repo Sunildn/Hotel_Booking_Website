@@ -1,9 +1,9 @@
 html,body{
     height: 100%;
     width: 100%;
-    margin: 0px;
-    background-color: #e0e0e0; 
-    font-family: sans-serif;
+    margin: 0%;
+    background-color: #e0e0e0;
+    font-family: 'Ubuntu',sans-serif;
 }
 /* changing the size of logo in header div*/
 #logo{
@@ -36,14 +36,15 @@ footer{
     height: 60px;
     align-items: center;
 }
-#login{
+.loginStyle{
     right: 0%;
     top: 0px;
-    margin-top: 20px;
-    margin-right: 1%;
+    margin-top: 1%;
+    margin-right: 2%;
     text-decoration: none;
     position: absolute;
     color: black;
+    font-family: 'Ubuntu',sans-serif;
 }
 #social{
     position: absolute;
@@ -53,12 +54,11 @@ footer{
     margin-right: 1%;
 
 }
-#contact{
-    bottom:32%;
-    margin-left: 2%;
+.contactStyle{
+    bottom: 25%;
+    margin-left: 4%;
     text-decoration: none;
     position: absolute;
-    text-align: center;
     color: black;
 }
 .copyRight{

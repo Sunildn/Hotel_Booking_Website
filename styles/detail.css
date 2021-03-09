@@ -4,6 +4,9 @@
     width: 500px;
     
 }
+.content{
+    background-color: #e0e0e0; 
+}
 form{
     display:flex; justify-content:space-around; flex-direction: column;
 }
@@ -13,16 +16,17 @@ form{
     margin-right: 4%;
     margin-bottom: 7%;
     margin-top: 1%;
+    background-color: #e0e0e0; 
     
 }
-.content{
-    margin-bottom: 10%;
-}
+
 .mainDiv{
     display: flex; 
     margin: 8%; 
     height: 400px;
     justify-content: center;
+    background-color: #e0e0e0; 
+    
 }
 .imgDiv{
 
@@ -31,10 +35,11 @@ form{
     justify-content: center; 
     align-items: center;
     border: 1px solid black
+ 
 }
 
 .formDiv{
-
+    background-color: #e0e0e0; 
  flex-grow: 1; 
  padding: 20px; 
  border-left: 0px; 

@@ -1,5 +1,6 @@
 #marginDesc{
     margin: 2%;
+    
 }
 
 .imgDiv{
@@ -8,13 +9,16 @@
     flex-direction: row;
     display: flex;
     width: 60%;
+    font-family: 'Ubuntu',sans-serif;
+    height: 270px;
 }
 
 .mainDiv{
     margin-bottom: 100px; 
     flex-direction: column;
     display: flex;
-
+    background-color: #e0e0e0; 
+    
 }
 
 .descSty{

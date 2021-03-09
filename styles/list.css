@@ -2,13 +2,19 @@
     height: 200px;
     width: 250px;
 }
-#list, #map{
+#list{
     scroll-behavior: smooth;
-   
+    
+}
+#container{
+    display: grid;
+}
+.nav-item{
+    color: black;
     
 }
 #map{
-    display: none;  
+      
     scroll-behavior: smooth;
 }
 
@@ -18,14 +24,16 @@
     background-color: lightgray;
     width: 40%;
     float: left;
-    
-    
+    display: flex;
+    margin-left: 5%;
+    margin-right: 4%;
+    display: flex;
 }
 .body{
     display: flex;
     flex-direction: column;
 }
-.hotels{
-    display: flex;
-    
+
+.hotels:hover{
+    background-color: rosybrown;
 }
