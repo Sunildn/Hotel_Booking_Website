@@ -6,6 +6,7 @@
 .imgDiv{
     background-color: rgb(132,136,139); 
     margin: 7% auto; 
+    margin-bottom: 2%;
     flex-direction: row;
     display: flex;
     width: 60%;

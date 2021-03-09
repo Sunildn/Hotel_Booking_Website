@@ -8,7 +8,7 @@
 .body{
     display: flex;
     flex-direction: column;
-    height: 750px;
+    height: 100vh;
     justify-content: space-evenly;
     background-color: #e0e0e0;
 }
@@ -92,3 +92,4 @@
    .placeimg:hover + .text4Sty {
     visibility: visible;
    }
+ 
