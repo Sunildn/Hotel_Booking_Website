@@ -4,6 +4,7 @@ html,body{
     margin: 0%;
     background-color: #e0e0e0;
     font-family: 'Ubuntu',sans-serif;
+    overflow-x: hidden;
 }
 /* changing the size of logo in header div*/
 #logo{
