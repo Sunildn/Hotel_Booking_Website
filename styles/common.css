@@ -19,7 +19,7 @@ html,body{
     width: 22px;
     text-decoration: none
 }
-header{
+.header{
     display: flex;
     flex-direction: row;
     background-color:rosybrown;
