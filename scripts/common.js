@@ -74,7 +74,7 @@ function loginAndContact() {
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="modal-header">Please Login</h5>
-            <button type="button" id="close" class="close" data-dismiss="modal" aria-label="Close">
+            <button type="button" id="close1" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
