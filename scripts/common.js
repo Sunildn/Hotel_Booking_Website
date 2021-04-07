@@ -69,7 +69,7 @@ function loginAndContact() {
   let template = `
    
     <!--login-->
-    <div class="modal" tabindex="-1" role="dialog" id="login">
+    <div class="modal fade" tabindex="-1" role="dialog" id="login">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -79,11 +79,11 @@ function loginAndContact() {
             </button>
           </div>
           <div class="modal-body" style=" display: flex;flex-direction: column; margin-left: 7%;  margin-right: 7%;">
-            <div style="display: flex; flex-direction: row;">
+            <div style="display: flex; flex-direction: row; justify-content: space-evenly;align-items: center; padding: 2%;">
                 <label style="margin-right: 25%;" for="name">Username:</label><br/>
                 <input type="text" id="name" placeholder="Enter Username" required/>
             </div>
-            <div style="display: flex; flex-direction: row;">
+            <div style="display: flex; flex-direction: row;justify-content: space-evenly;align-items: center; padding: 2%;">
                 <label style="margin-right: 25%;" for="example-input-password">Password:</label><br/>
                 <input type="password" id="password" placeholder="Enter Password" required autocomplete="off"/>
             </div>
@@ -98,7 +98,7 @@ function loginAndContact() {
     </div>
 
    <!--contact modal-->
-   <div class="modal" tabindex="-1" role="dialog" id="example-modal-signup">
+   <div class="modal fade" tabindex="-1" role="dialog" id="example-modal-signup">
      <div class="modal-dialog" role="document">
        <div class="modal-content">
          <div class="modal-header">
@@ -113,7 +113,7 @@ function loginAndContact() {
                  Please enter you email and we will get back to you</p>
                <p style="display: flex; float: left;">
                    <label for="email">Email:</label><br/>
-                   <input type="email" id="email" placeholder="Enter your email id" required/>
+                   <input type="email" id="email" placeholder="Enter your email id" required style="margin-left:5px;"/>
                </p>
               
              </form>
